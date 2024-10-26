@@ -195,10 +195,12 @@ header {
 }
 
 .slider-pic7 {
-  top: 108px;
-  position: absolute;
-  padding-left: 594px;
-}
+    width: 70%;
+    top: 81px;
+    position: absolute;
+    padding-left: 394px;
+    right:290px
+  }
 
 .slider-pic5 {
   top: 429px;
