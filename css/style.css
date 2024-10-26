@@ -230,10 +230,12 @@ header {
     align-items: center;
     margin: 0 auto;
   }
-  .slider-pic4 {
+.slider-pic4 {
     position: absolute;
-    top: 237px;
-    left: -235px;
+    width:90%;
+    padding-left:450px;
+    top: 229px;
+    left: 70px;
   }
   header {
     height: 420px;
