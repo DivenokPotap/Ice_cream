@@ -1,0 +1,120 @@
+footer{
+    height: 250px;
+    background-color: #FFF5F6;
+}
+.sec5-wrap{
+    display: flex;
+}
+.contacts{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.homemade{
+    width: 472px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.homemade h2{
+    text-transform: uppercase;
+    color: #FFA5BA;
+    font-weight: 400;
+    font-family: 'Titan One' , sans-serif;
+    font-size: 30px;
+}
+.homemade span{
+    text-transform: uppercase;
+    color: #D41443;
+    font-weight: 400;
+    font-family: 'Titan One' , sans-serif;
+    font-size: 60px;
+}
+.sites{
+    display: flex;
+    gap: 25px;
+    margin-left: 150px;
+}
+.number{
+    margin-top: 50px;
+}
+.number span{
+    color: #D41342;
+}
+.copyhr{
+    margin-top: 50px;
+    border: 1px solid #E1E1E1;
+}
+.copyp{
+    margin-top: 10px;
+    align-self: center;
+    text-align: center;
+    color: #907E82;
+}
+.git:hover::before{
+    content: url(/images/github1.svg);
+    position: absolute;
+}
+.teleg:hover::before{
+    content: url(/images/telegram1.svg);
+    position: absolute;
+}
+.facebook:hover::before{
+    content: url(/images/facebook1.svg);
+    position: absolute;
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    footer{
+        height: 275px;
+        background-color: #FFF5F6;
+    }
+    .number{
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 180px;
+    }
+    .contacts{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: -135px;
+    }
+    .homemade{
+        width: 120px;
+        margin-left: 25px;
+        padding-top: 50px;
+    }
+    .homemade h2{
+        text-transform: uppercase;
+        color: #FFA5BA;
+        font-weight: 400;
+        font-family: 'Titan One' , sans-serif;
+        font-size: 20px;
+    }
+    .homemade span{
+        text-transform: uppercase;
+        color: #D41443;
+        font-weight: 400;
+        font-family: 'Titan One' , sans-serif;
+        font-size: 30px;
+    }
+    .sites{
+        gap: 5px;
+        margin-left: 175px;
+    }
+    .git:hover::before{
+        content: url(/images/github1.svg);
+        position: absolute;
+    }
+    .teleg:hover::before{
+        content: url(/images/telegram1.svg);
+        position: absolute;
+    }
+    .facebook:hover::before{
+        content: url(/images/facebook1.svg);
+        position: absolute;
+    }
+}

@@ -1,0 +1,467 @@
+header{
+    height: 665px;
+    background-color: #FFB8CA;
+}
+.menu{
+    padding-top: 25px;
+    gap: 5px;
+    justify-content: space-around;
+}
+.container{
+    width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+margin-top: -15px;
+}
+.mtxt1{
+    font-weight: 700;
+    size: 16px;
+    color: #D41443;
+}
+.mtxt2{
+    font-weight: 700;
+    size: 16px;
+    color: white;
+}
+.mtxt2:hover{
+    color: #ECEBEB;
+}
+.mtxt1:hover{
+    color: #C7133E;
+}
+.icecream{
+    font-family: 'Titan One' , sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.icetxt1{
+font-size: 38px;
+font-weight: 400;
+color: white;
+width: 280px;
+}
+.icetxt2{
+    font-size: 58px;
+    font-weight: 400;
+    color: #D41443;
+}
+.btn1{
+    width: 160px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: white;
+    padding: 12px 40px;
+    margin-top: -10px;
+}
+.btn1:hover{
+    background-color: #ECEBEB;
+    cursor: pointer;
+}
+.icebtn{
+    padding-top: 25px;
+    padding-left: 100px;
+}
+.icebtn1{
+    width: 105px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: #D41443;
+    padding: 12px 20px;
+    margin-top: -10px;
+    z-index: 4;
+}
+.icebtn1:hover{
+    background-color: #C7133E;
+    cursor: pointer;
+}
+.icet1{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.icebtn2{
+    width: 140px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: white;
+    padding: 12px 20px;
+    margin-top: -10px;
+    z-index: 4;
+}
+.icebtn2:hover{
+    background-color: #ECEBEB;
+    cursor: pointer;
+}
+.icebtn{
+    gap: 10px;
+}
+.icet2{
+    color: #D41443;
+    font-size: 14px;
+    font-weight: 400;
+}
+.places{
+    flex-direction: column;
+}
+.cafes{
+    top: 160px;
+    position: absolute;
+    padding-left: 1100px;
+}
+.cafes h2{
+    position: absolute;
+    font-size: 46px;
+    font-weight: 400px;
+    color: #D41443;
+    font-family: 'Titan One' , sans-serif;
+}
+.cafes p{
+    color: white;
+    padding-left: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.cafes img{
+    padding-left: 35px;
+}
+.foodtrucks{
+    top: 250px;
+    position: absolute;
+    padding-left: 1100px;
+}
+.foodtrucks h2{
+    position: absolute;
+    font-size: 46px;
+    font-weight: 400px;
+    color: #D41443;
+    font-family: 'Titan One' , sans-serif;
+}
+.foodtrucks p{
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.foodtrucks img{
+    padding-left: 35px;
+}
+.slider-pic4{
+    top: 433px;
+    position: absolute;
+    padding-left: 900px;
+}
+.circle{
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    background-color: #FFA5BA;
+    border-radius: 500px;
+    top: 52px;
+    margin-left: 475px;
+}
+.slider-pic7{
+    top: 108px;
+    position: absolute;
+    padding-left: 594px;
+}
+.slider-pic5{
+    top: 429px;
+    position: absolute;
+    padding-left: 77px;
+}
+.lorem{
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 250px;
+    position: absolute;
+}
+.lorem p{
+    width: 200px;
+    color: white;
+}
+.lorem img{
+    margin-top: 10px;
+    width: 26px;
+    height: 26px;
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .slider-pic4{
+        content: url(/images/slider-pic4\ 1\ \(1\).svg);
+        position: absolute;
+        top: 287px;
+        left: -330px;
+    }
+    header{
+        height: 420px;
+        background-color: #FFB8CA;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: -15px;
+    }
+    li .mtxt2{
+    font-size: 10px;
+    }
+    .icebtn2{
+        width: 100px;
+        height: 24px;
+        border-radius: 22px;
+        background-color: white;
+        padding: 1px 20px;
+        z-index: 4;
+    }
+    .icebtn1{
+        width: 75px;
+        height: 24px;
+        border-radius: 22px;
+        background-color: #D41443;
+        padding: 1px 20px;
+        z-index: 4;
+    }
+    .icet1, .icet2{
+        font-size: 8px;
+    }
+    .icecream{
+        font-family: 'Titan One' , sans-serif;
+        padding-top: 10px;
+        padding-left: 65px;
+    }
+    .slider-pic5{
+        width: 25%;
+        top: 260px;
+        position: absolute;
+        left: -17px;
+        z-index: 3;
+    }
+    .slider-pic7{
+        width: 70%;
+        top: 81px;
+        position: absolute;
+        padding-left: 394px;
+    }
+    .lorem{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 165px;
+        position: absolute;
+    }
+    .lorem p{
+        font-size: 8px;
+        width: 120px;
+        color: white;
+    }
+    .icebtn{
+        padding-top: 30px;
+        padding-left: 65px;
+    }
+    .icetxt1{
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+        width: 160px;
+    }
+    .icetxt2{
+        font-size: 34px;
+        font-weight: 400;
+        color: #D41443;
+    }
+    .circle{
+        position: absolute;
+        width: 338px;
+        height: 338px;
+        background-color: #FFA5BA;
+        border-radius: 500px;
+        top: 52px;
+        margin-left: 275px;
+    }
+    .cafes{
+        left: -15px;
+        top: 80px;
+        position: absolute;
+        padding-left: 670px;
+    }
+    .cafes h2{
+        position: absolute;
+        font-size: 46px;
+        font-weight: 400px;
+        color: #D41443;
+        font-family: 'Titan One' , sans-serif;
+    }
+    .cafes p{
+        color: white;
+        padding-left: 10px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+    .cafes img{
+        padding-left: 35px;
+    }
+    .foodtrucks{
+        width: 100%;
+        top: 160px;
+        left: -15px;
+        position: absolute;
+        padding-left: 670px;
+    }
+    .foodtrucks h2{
+        position: absolute;
+        font-size: 46px;
+        font-weight: 400px;
+        color: #D41443;
+        font-family: 'Titan One' , sans-serif;
+    }
+    .foodtrucks p{
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .foodtrucks img{
+        padding-left: 35px;
+    }
+    .btn1{
+        margin-left: -100px;
+        width: 104px;
+        height: 30px;
+        border-radius: 22px;
+        background-color: white;
+        padding: 5px 26px;
+        margin-top: 2px;
+    }
+    .mtxt1{
+        font-size: 10px;
+    }
+}
+@media (max-width:320px){
+    .container{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .slider-pic4{
+    display: none;
+    }
+    header{
+        height: 420px;
+        background-color: #FFB8CA;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+    li .mtxt2{
+        display: none;
+    }
+    .hm{
+        display: none;       
+    }
+    .icebtn2{
+        width: 100px;
+        height: 24px;
+        border-radius: 22px;
+        background-color: white;
+        padding: 1px 20px;
+        z-index: 4;
+    }
+    .icebtn1{
+        width: 70px;
+        height: 24px;
+        border-radius: 22px;
+        background-color: #D41443;
+        padding: 1px 20px;
+        z-index: 4;
+    }
+    .icet1, .icet2{
+        font-size: 8px;
+    }
+    .icecream{
+        font-family: 'Titan One' , sans-serif;
+        padding-top: 10px;
+        padding-left: 35px;
+        z-index: 4;
+        position: absolute;
+    }
+    .slider-pic5{
+        display: none;
+    }
+    .slider-pic7{
+        width: 100%;
+        top: 123px;
+        position: absolute;
+        padding-left: 194px;
+    }
+    .lorem{
+        display: none;
+    }
+    .lorem p{
+        display: none;
+    }
+    .icebtn{
+        padding-top: 130px;
+        padding-left: 25px;
+    }
+    .icetxt1{
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+        width: 160px;
+    }
+    .icetxt2{
+        font-size: 34px;
+        font-weight: 400;
+        color: #D41443;
+    }
+    .circle{
+        position: absolute;
+        width: 238px;
+        height: 238px;
+        background-color: #FFA5BA;
+        border-radius: 500px;
+        top: 152px;
+        margin-left: 75px;
+    }
+    .cafes{
+        display: none;
+    }
+    .cafes h2{
+        display: none;
+    }
+    .cafes p{
+        display: none;
+    }
+    .cafes img{
+        display: none;
+    }
+    .foodtrucks{
+        display: none;
+    }
+    .foodtrucks h2{
+        display: none;
+    }
+    .foodtrucks p{
+        display: none;
+    }
+    .foodtrucks img{
+        display: none;
+    }
+    .btn1{
+        margin-left: -100px;
+        width: 84px;
+        height: 30px;
+        border-radius: 22px;
+        background-color: white;
+        padding: 5px 15px;
+        margin-top: 2px;
+    }
+    .mtxt1{
+        font-size: 10px;
+    }
+}
