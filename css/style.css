@@ -232,7 +232,6 @@ header {
     margin: 0 auto;
   }
   .slider-pic4 {
-    content: url(./images/slider-pic4\ 2.svg);
     position: absolute;
     top: 257px;
     left: -280px;
@@ -992,16 +991,9 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(./images/home-pic11.svg);
     margin-top: -125px;
     margin-left: -100px;
     position: absolute;
-  }
-  .two {
-    content: url(./images/home-pic12.svg);
-  }
-  .two1 {
-    content: url(./images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1050,7 +1042,6 @@ header {
     position: absolute;
     margin-top: 100px;
     margin-left: 40px;
-    content: url(./images/home-pic4\ 2.svg);
   }
   .milk-black {
     margin-left: -270px;
@@ -1320,16 +1311,9 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(./images/home-pic11.svg);
     margin-top: -150px;
     margin-left: -120px;
     position: absolute;
-  }
-  .two {
-    content: url(./images/home-pic12.svg);
-  }
-  .two1 {
-    content: url(./images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1382,7 +1366,6 @@ header {
   .cow {
     margin-top: -550px;
     margin-left: -27px;
-    content: url(./images/home-pic4\ 2.svg);
   }
   .milk-black {
     margin-top: 400px;
