@@ -195,12 +195,10 @@ header {
 }
 
 .slider-pic7 {
-    width: 70%;
-    top: 81px;
-    position: absolute;
-    padding-left: 394px;
-    right:290px
-  }
+  top: 108px;
+  position: absolute;
+  padding-left: 594px;
+}
 
 .slider-pic5 {
   top: 429px;
@@ -232,7 +230,7 @@ header {
     align-items: center;
     margin: 0 auto;
   }
-.slider-pic4 {
+  .slider-pic4 {
     position: absolute;
     width:90%;
     padding-left:450px;
@@ -286,6 +284,7 @@ header {
     top: 81px;
     position: absolute;
     padding-left: 394px;
+    right:290px
   }
   .lorem {
     flex-direction: column;
@@ -976,7 +975,7 @@ header {
     height: 900px;
   }
   .card {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 17px;
     width: 230px;
     height: 525px;
@@ -994,8 +993,9 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    margin-top: -100px;
-    margin-left: -80px;
+    width:40%;
+    margin-top: -180px;
+    margin-left: -150px;
     position: absolute;
   }
   .natural {
@@ -1005,7 +1005,7 @@ header {
     line-height: 40px;
   }
   .natural p {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 350px;
     color: #FFA5BA;
     font-weight: 400;
