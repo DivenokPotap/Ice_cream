@@ -437,6 +437,7 @@ header {
     top: 123px;
     position: absolute;
     padding-left: 194px;
+    left:-5px;
   }
   .lorem {
     display: none;
@@ -1042,9 +1043,10 @@ header {
     margin-top: 25px;
   }
   .cow {
+    width:50%;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 40px;
+    margin-top: 200px;
+    margin-left: 10px;
   }
   .milk-black {
     margin-left: -270px;
@@ -1314,8 +1316,9 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    margin-top: -150px;
-    margin-left: -120px;
+    width:80%;
+    margin-top: -140px;
+    margin-left: -125px;
     position: absolute;
   }
   .natural {
@@ -1367,8 +1370,10 @@ header {
     margin-top: 25px;
   }
   .cow {
-    margin-top: -550px;
-    margin-left: -27px;
+    width:100%;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: -20px;
   }
   .milk-black {
     margin-top: 400px;
