@@ -232,7 +232,7 @@ header {
     margin: 0 auto;
   }
   .slider-pic4 {
-    content: url(/images/home-pic4\ 2.svg);
+    content: url(./images/slider-pic4\ 2.svg);
     position: absolute;
     top: 257px;
     left: -280px;
@@ -1382,7 +1382,7 @@ header {
   .cow {
     margin-top: -550px;
     margin-left: -27px;
-    content: url(./images/home-pic4\ \(1\).svg);
+    content: url(./images/home-pic4\ 2.svg);
   }
   .milk-black {
     margin-top: 400px;
