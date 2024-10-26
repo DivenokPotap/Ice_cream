@@ -232,7 +232,7 @@ header {
     margin: 0 auto;
   }
   .slider-pic4 {
-    content: url(/images/slider-pic4\ 1\ \(1\).svg);
+    content: url(./images/slider-pic4\ 1\ \(1\).svg);
     position: absolute;
     top: 287px;
     left: -330px;
@@ -992,16 +992,16 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(/images/home-pic11.svg);
+    content: url(./images/home-pic11.svg);
     margin-top: -150px;
     margin-left: -120px;
     position: absolute;
   }
   .two {
-    content: url(/images/home-pic12.svg);
+    content: url(./images/home-pic12.svg);
   }
   .two1 {
-    content: url(/images/home-pic13.svg);
+    content: url(./images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1050,7 +1050,7 @@ header {
     position: absolute;
     margin-top: 100px;
     margin-left: 40px;
-    content: url(/images/home-pic4\ \(1\).svg);
+    content: url(./images/home-pic4\ \(1\).svg);
   }
   .milk-black {
     margin-left: -270px;
@@ -1320,16 +1320,16 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(/images/home-pic11.svg);
+    content: url(./images/home-pic11.svg);
     margin-top: -150px;
     margin-left: -120px;
     position: absolute;
   }
   .two {
-    content: url(/images/home-pic12.svg);
+    content: url(./images/home-pic12.svg);
   }
   .two1 {
-    content: url(/images/home-pic13.svg);
+    content: url(./images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1382,7 +1382,7 @@ header {
   .cow {
     margin-top: -550px;
     margin-left: -27px;
-    content: url(/images/home-pic4\ \(1\).svg);
+    content: url(./images/home-pic4\ \(1\).svg);
   }
   .milk-black {
     margin-top: 400px;
@@ -1682,17 +1682,17 @@ footer {
 }
 
 .git:hover::before {
-  content: url(/images/github1.svg);
+  content: url(./images/github1.svg);
   position: absolute;
 }
 
 .teleg:hover::before {
-  content: url(/images/telegram1.svg);
+  content: url(./images/telegram1.svg);
   position: absolute;
 }
 
 .facebook:hover::before {
-  content: url(/images/facebook1.svg);
+  content: url(./images/facebook1.svg);
   position: absolute;
 }
 
@@ -1740,15 +1740,15 @@ footer {
     margin-left: 175px;
   }
   .git:hover::before {
-    content: url(/images/github1.svg);
+    content: url(./images/github1.svg);
     position: absolute;
   }
   .teleg:hover::before {
-    content: url(/images/telegram1.svg);
+    content: url(./images/telegram1.svg);
     position: absolute;
   }
   .facebook:hover::before {
-    content: url(/images/facebook1.svg);
+    content: url(./images/facebook1.svg);
     position: absolute;
   }
 }
