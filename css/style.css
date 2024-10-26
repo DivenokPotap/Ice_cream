@@ -993,8 +993,8 @@ header {
   }
   .home-pic {
     content: url(./images/home-pic11.svg);
-    margin-top: -150px;
-    margin-left: -120px;
+    margin-top: -125px;
+    margin-left: -100px;
     position: absolute;
   }
   .two {
