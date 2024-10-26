@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap");
 header {
   height: 665px;
@@ -232,10 +231,11 @@ header {
     margin: 0 auto;
   }
   .slider-pic4 {
-    content: url(/images/slider-pic4\ 2.svg);
     position: absolute;
-    top: 287px;
-    left: -330px;
+    width:90%;
+    padding-left:450px;
+    top: 229px;
+    left: 70px;
   }
   header {
     height: 420px;
@@ -284,6 +284,7 @@ header {
     top: 81px;
     position: absolute;
     padding-left: 394px;
+    right:290px
   }
   .lorem {
     flex-direction: column;
@@ -571,8 +572,8 @@ header {
 }
 
 .home-pic {
-  margin-top: -220px;
-  margin-left: -165px;
+  margin-top: -180px;
+  margin-left: -135px;
   position: absolute;
 }
 
@@ -974,7 +975,7 @@ header {
     height: 900px;
   }
   .card {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 17px;
     width: 230px;
     height: 525px;
@@ -992,16 +993,10 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(/images/home-pic11.svg);
-    margin-top: -150px;
-    margin-left: -120px;
+    width:40%;
+    margin-top: -180px;
+    margin-left: -150px;
     position: absolute;
-  }
-  .two {
-    content: url(/images/home-pic12.svg);
-  }
-  .two1 {
-    content: url(/images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1010,7 +1005,7 @@ header {
     line-height: 40px;
   }
   .natural p {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 350px;
     color: #FFA5BA;
     font-weight: 400;
@@ -1050,7 +1045,6 @@ header {
     position: absolute;
     margin-top: 100px;
     margin-left: 40px;
-    content: url(/images/home-pic4\ 2.svg);
   }
   .milk-black {
     margin-left: -270px;
@@ -1320,16 +1314,9 @@ header {
     font-weight: 700;
   }
   .home-pic {
-    content: url(/images/home-pic11.svg);
     margin-top: -150px;
     margin-left: -120px;
     position: absolute;
-  }
-  .two {
-    content: url(/images/home-pic12.svg);
-  }
-  .two1 {
-    content: url(/images/home-pic13.svg);
   }
   .natural {
     font-family: "Titan One", sans-serif;
@@ -1382,7 +1369,6 @@ header {
   .cow {
     margin-top: -550px;
     margin-left: -27px;
-    content: url(/images/home-pic4\ 2.svg);
   }
   .milk-black {
     margin-top: 400px;
@@ -1682,17 +1668,17 @@ footer {
 }
 
 .git:hover::before {
-  content: url(/images/github1.svg);
+  content: url(./images/github1.svg);
   position: absolute;
 }
 
 .teleg:hover::before {
-  content: url(/images/telegram1.svg);
+  content: url(./images/telegram1.svg);
   position: absolute;
 }
 
 .facebook:hover::before {
-  content: url(/images/facebook1.svg);
+  content: url(./images/facebook1.svg);
   position: absolute;
 }
 
@@ -1740,15 +1726,15 @@ footer {
     margin-left: 175px;
   }
   .git:hover::before {
-    content: url(/images/github1.svg);
+    content: url(./images/github1.svg);
     position: absolute;
   }
   .teleg:hover::before {
-    content: url(/images/telegram1.svg);
+    content: url(./images/telegram1.svg);
     position: absolute;
   }
   .facebook:hover::before {
-    content: url(/images/facebook1.svg);
+    content: url(./images/facebook1.svg);
     position: absolute;
   }
 }
